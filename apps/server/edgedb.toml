@@ -1,0 +1,7 @@
+[edgedb]
+server-version = "5.7"
+
+[auth.providers.webauthn]
+enabled = true
+domain = "http://localhost:5173/"  # 웹앱의 도메인
+rp_name = "pangpang"  # Relying Party 이름
