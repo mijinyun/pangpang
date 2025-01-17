@@ -12,10 +12,16 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@edgedb/auth-core": "^0.2.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "edgedb": "^1.5.12",
     "express": "^4.21.2",
     "node": "^23.5.0",
     "nodemon": "^3.1.9",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@edgedb/generate": "^0.5.6"
   }
 }
